@@ -3,7 +3,7 @@ package ohgiraffers.section01.literal;
 public class Application01 {
 
     public static void main(String[] args) {
-        // 숫자형 리터럴
+        // 숫자형 (리터럴) -> 값 자체
         System.out.println(123);
         // 문자열형 리터럴
         System.out.println("hello world");
