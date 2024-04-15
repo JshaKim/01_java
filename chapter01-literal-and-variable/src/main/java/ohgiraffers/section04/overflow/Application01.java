@@ -14,7 +14,7 @@ public class Application01 {
         System.out.println("byte num : " + num1);
 
         int firstNum = 2147483647;
-        int secondNum = 2;
+        int secondNum = 1;
         System.out.println("first num + second num = " + (firstNum + secondNum)); // 1935130624
 
         int lnum = firstNum * secondNum;
@@ -22,5 +22,6 @@ public class Application01 {
 
         long result = (long) firstNum * secondNum;
         System.out.println("first num * second num = " + result);
+
     }
 }
