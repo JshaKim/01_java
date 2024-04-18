@@ -4,7 +4,7 @@ public class Practice {
 
     public static void main(String[] args) {
         Practice practice = new Practice();
-        Practice.calculator();
+    //    Practice.calculator();
     }
     //    * 1. calculator 메서드 만든다.
     public String calculator() {

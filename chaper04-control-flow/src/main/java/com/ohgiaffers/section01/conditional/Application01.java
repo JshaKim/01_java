@@ -10,18 +10,18 @@ public class Application01 {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         String[] target = input.split(" ");
-
-        int result=0;
+        int result = 0;
 
         if (target[1].equals('+')) {
             result = Integer.parseInt(target[0]) + Integer.parseInt(target[2]);
-            String a = "1";
-            String b = "1";
-
-        }{
-            return "" + result;
         }
-
+        String a = "1";
+        String b = "1";
+        return "" + result;
     }
+
 }
+
+
+
 
