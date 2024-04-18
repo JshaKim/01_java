@@ -8,17 +8,18 @@ public class Application03 {
         int y = 20;
 
         Application03 app3 = new Application03();
-        String result = app3.myinfo("김기호", 39, 'M', "010-8074-2670");
+        //String result = app3.myinfo("김기호", 39, 'M', "010-8074-2670");
         //int result = app3.plus(x, y);
         int sub = app3.minus(x, y);
         int mul = app3.multiplication(x, y);
         int div = app3.division(x, y);
         int re = app3.remain(x, y);
 
-        System.out.println(result);
+       // System.out.println(result);
         System.out.println(sub);
         System.out.println(mul);
         System.out.println(div);
+
         System.out.println(re);
 
     }
