@@ -12,7 +12,7 @@ public class Test {
     *
     * */
 
-    /*
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -38,8 +38,8 @@ public class Test {
         int average = sum / 5;
         System.out.println("A학생의 수학 : " + math + ", 영어 : " + eng + ", 국어 : " + lang + ", 과학 : " + science + ", 사회 : " + social + "점이며 평균은 " + average + "점 입니다.");
 
-*/
 
+/*
     public void average() {
         Scanner sc = new Scanner(System.in);
         String[] subject = {"수학", "영어", "국어", "과학", "사회"};
@@ -56,6 +56,8 @@ public class Test {
             System.out.println((subject[i]) + " : " + score[i] + " ");
         }
         System.out.println(average);
+    }
+    */
     }
 }
 

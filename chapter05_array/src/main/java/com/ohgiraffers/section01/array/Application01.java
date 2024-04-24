@@ -66,7 +66,7 @@ public class Application01 {
 
 */
 
-        Test ts = new Test();
-        ts.average();
+//        Test ts = new Test();
+//        ts.average();
     }
 }
