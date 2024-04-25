@@ -24,17 +24,16 @@ public class Application {
 
             int input = scan.nextInt();
             scan.nextLine();
-            OrderDTO orderDTO = new OrderDTO();
 
             switch(input){
                 case 1: // 주문등록
                     System.out.println("주문할 메뉴 이름을 입력하세요 : ");
-                    orderDTO.setMenuName(scan.nextLine());
+                    String name = scan.nextLine();
                     System.out.println("수량을 입력해주세요 : ");
                     int quantity = scan.nextInt();
                     System.out.println("가격을 입력해주세요 : ");
                     int price = scan.nextInt();
-                    orderDTO.setQuantity(quantity, price);
+                    OrderDTO orderDTO = new OrderDTO(name, quantity, price);
 
                     result = orderController.order(orderDTO);
                     break;
@@ -47,8 +46,9 @@ public class Application {
                 case 4: // 주문 상세조회
                     orderController.orderDetail();
                     break;
-                case 5: // 주문조회
-                    orderController.orderRead();
+                case 5: // 주문 전체조회
+                    orderController.orderRead(orderDTO);
+
                     break;
                 default:
                     System.out.println("입력이 잘못되었습니다.");

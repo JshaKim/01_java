@@ -5,7 +5,7 @@ import com.ohgiraffers.order.service.OrderService;
 
 public class OrderController {
 
-    private OrderService orderService = new OrderService(); // orderService 호출
+    private final OrderService orderService = new OrderService(); // orderService 호출
 
     public String order(OrderDTO orderDTO){
         if (orderDTO.getMenuName().equals("")){
@@ -29,7 +29,10 @@ public class OrderController {
     public String orderDetail(){
         return "주문 상세조회";
     }
-    public String orderRead(){
+    public String orderRead(OrderDTO orderDTO){
+        if (orderDTO.getMenuName().equals(""),  ){
+
+        }
         return "전체 주문조회";
     }
 

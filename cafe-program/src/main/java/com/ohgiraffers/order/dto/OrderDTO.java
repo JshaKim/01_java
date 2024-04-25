@@ -8,6 +8,15 @@ public class OrderDTO {
 
     private int quantity;
 
+    private int totalPrice;
+
+    public OrderDTO(String name, int price, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+        this.totalPrice = price*quantity;
+    }
+
     public String getName() {
         return name;
     }
@@ -33,9 +42,26 @@ public class OrderDTO {
         return quantity;
     }
 
-    public void setQuantity(int quantity, int price) {
-        this.quantity = quantity;
+    public int getTotalPrice() {
+        return totalPrice;
     }
 
+    public void setTotalPrice(int totalPrice) {
+        this.totalPrice = totalPrice;
+    }
 
+    public void setQuantity(int quantity, int price) {
+        this.quantity = quantity;
+        this.price = price * quantity;
+    }
+
+    @Override
+    public String toString() {
+        return "OrderDTO{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", quantity=" + quantity +
+                ", totalPrice=" + totalPrice +
+                '}';
+    }
 }

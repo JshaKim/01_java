@@ -1,2 +1,4 @@
-package com.ohgiraffers.section07.kindsofvariable;public class KindsOfFVriable {
+package com.ohgiraffers.section07.kindsofvariable;
+
+public class KindsOfFVriable {
 }

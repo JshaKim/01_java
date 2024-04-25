@@ -1,2 +1,34 @@
-package com.ohgiraffers.section05.overloading;public class OverLoadingTest {
+package com.ohgiraffers.section05.overloading;
+
+public class OverLoadingTest {
+
+    /*
+    * 오버로딩이란?
+    * 오버로딩은 동일한 이름을 가진 메서드를 생성하는 것을 의미한다.
+    * 여기서 동일한 메서드는 생상이 불가능한데 이 때 메서드의 시그니처 부분을 다르게 하면
+    * 생성이 가능하게 된다. 우리가 가장 많이 사용했던 오버로딩 메소드는 System.out.println이다
+    * */
+
+    /*
+    * 오버로딩의 사용 이유
+    * 매개변수의 종류별로 메소드 내용을 다르게 작성해야 하는 경우들이 종종 있다.
+    * 이때, 도일한 기능이 메소드를 매개변수에 따라 다르게 이름을 정의하면 복잡하고
+    * 관리하기가 매우 어려울 것이다.
+    * 규모가 작은 플그램의 경우 정도가 덜 하지만 규모가 거대해지면서 메소드 또한 간리하기가 매우 어려워진다.
+    * 따라서 동일한 이름으로 다양한 종류의 매개변수에 따라 처리해야 하는 여러 메소드를 동일한 이름로 관리하기 위해 사옹하는 기술을
+    * 오버로딩이라고 한다.
+    * */
+
+    public void tset() {
+//        public void tset() {
+//
+//        public String test(){
+//        return "";
+//        }
+    }
+
+    public String test2(){
+        return "";
+    }
+
 }
