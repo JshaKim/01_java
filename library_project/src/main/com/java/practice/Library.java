@@ -23,7 +23,7 @@ public class Library {
 
         // 입력한 회원 정보 저장
         Member user = new Member();
-        user.setMembeNo(0); //
+        user.setMemberNo(0); //
         user.setMemberName(memberName);
         user.setMemberArea(memberArea);
         user.setMemberPhone(memberPhone);

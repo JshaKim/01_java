@@ -1,17 +1,17 @@
 package practice;
 
 public class Member {
-    private int membeNo;
+    private int memberNo;
     private String memberName;
     private String memberArea;
     private String memberPhone;
 
-    public int getMembeNo() {
-        return membeNo;
+    public int getMemberNo() {
+        return memberNo;
     }
 
-    public void setMembeNo(int membeNo) {
-        this.membeNo = membeNo;
+    public void setMemberNo(int memberNo) {
+        this.memberNo = memberNo;
     }
 
     public String getMemberName() {
