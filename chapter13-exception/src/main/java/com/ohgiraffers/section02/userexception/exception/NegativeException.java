@@ -1,4 +1,4 @@
-package com.ohgiraffers.section02.userexception;
+package com.ohgiraffers.section02.userexception.exception;
 
 public class NegativeException extends Exception {
 
